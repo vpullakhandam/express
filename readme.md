@@ -9,10 +9,10 @@
 ### Install express
 ***
 #### Use the command. Node modules and package-lock.json are created in the folder.
-> npm install express
+> **npm install express**
 
 
 ### Uninstall express
 ***
 #### Use the command
-> npm uninstall express
+> **npm uninstall express**

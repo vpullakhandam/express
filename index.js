@@ -4,6 +4,10 @@ const app = express();
 
 const port = 3000;
 
+// how to use variables while sending request
+app.get('/hello/:name',(req,res)=>{
+    res.send("hello world!"+req.params.name);
+})
 app.get("/", (req, res) => {
   res.send("Hello World!");
 });

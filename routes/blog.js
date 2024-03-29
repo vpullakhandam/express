@@ -9,8 +9,9 @@ router.get("/", (req, res) => {
 
 router.get("/blog", (req, res) => {
   blogs.forEach((element) => {
-    console.log(element.title);
+    console.log(element.content);
   });
+  res.sendFile(_dirname, "../templates/blogHome.html");
 });
 
 module.exports = router;
